@@ -1,0 +1,163 @@
+// aboutCont
+#aboutCont {
+  background: #F0EEEB;
+}
+.aboutImg {
+  padding-bottom: 20vh;
+
+  > div {
+      font-size: 18px;
+      font-family: 'Chosunilbo_myungjo';
+  }
+
+  > div:nth-child(1){
+      .aiLeft {
+          width: 100%;
+      }
+      .aiRight {
+          width: 50vw;
+          margin-top: 5vh;
+      }
+  }
+  > div:nth-child(2){
+      display: flex;
+      justify-content: space-between;
+      margin-top: 25vh;
+
+      .aiLeft {
+          flex: 0 0 58%;
+      }
+      .aiRight {
+          flex: 0 0 30%;
+      }
+  }
+  > div:nth-child(3){
+      display: flex;
+      justify-content: space-between;
+      flex-direction: row-reverse;
+      margin-top: 25vh;
+
+      .aiLeft {
+          flex: 0 0 58%;
+      }
+      .aiRight {
+          flex: 0 0 38%;
+      }
+  }
+  
+}
+
+// referCont
+#referCont {
+  background: #F0EEEB;
+  padding-bottom: 20vh;
+}
+.referTable {
+  border-bottom: 2px solid #000;
+  
+  h2 {
+      font-size: 30px;
+      font-family: 'S-CoreDream-3Light';
+      font-weight: normal;
+  }
+  
+  li {
+      margin: 0;
+      list-style: none;
+      border-top: 1px solid #000;
+      position: relative;
+
+      span {
+          display: inline-block;
+          padding: 21px 0;
+          font-size: 16px;
+          font-family: 'S-CoreDream-3Light';
+          box-sizing: border-box;
+      }
+      .alpha {
+          position: absolute; left: 0; top: 0;
+      }
+      .attr {
+          padding-left: 10%;
+          width: 35%;
+      }
+      .desc {
+          width: 64.5%;
+      }
+  }
+}
+
+
+// mainTxet
+.mainTxet {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -45%);
+  width: 80%;
+
+  > div {
+      font-size: 11vw;
+      line-height: 8vw;
+      font-family: "Saol Display Regular";
+      margin-bottom: 5px;
+      padding: 1.5vw 0 0 0;
+      color: #fff;
+      display: inline-block;
+  }
+  
+  > div.white {
+      color: #000;
+      background: #fff;
+  }
+}
+
+
+//port
+.portCont {
+  color: #fff;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding-bottom: 30vh;
+}
+.portCont a {
+  width: 32%;
+  margin-bottom: 2%;
+}
+.portCont .port .portImg img {
+  width: 100%;
+}
+.portCont .port .portText {
+  position: relative;
+  padding: 35px;
+  background: #151517;
+}
+.portCont .port .portText h2 {
+  font-family: "Saol Display Regular";
+  font-size: 50px;
+  line-height: 47px;
+}
+.portCont .port .portText p {
+  font-size: 12px;
+  color: #B0AEAD;
+}
+.portCont .port .portText span {
+  position: absolute;
+  right: 40px; bottom: 30px;
+  color: #B0AEAD;
+  font-size: 12px;
+  border: 1px solid #B0AEAD;
+  width: 25px; height: 25px;
+  text-align: center;
+  border-radius: 50%;
+  line-height: 22px;
+  transition: all 0.3s;
+
+  &:hover {
+      background-color: #fff;
+      color: #111;
+      border-color: #111;
+  }
+}

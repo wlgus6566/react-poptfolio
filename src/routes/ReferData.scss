@@ -1,0 +1,31 @@
+.referTable {
+  border-bottom: 2px solid #000;
+}
+.referTable h2 {
+  font-size: 30px;
+  font-family: 'S-CoreDream-3Light';
+  font-weight: normal;
+}
+.referTable li {
+  margin: 0;
+  list-style: none;
+  border-top: 1px solid #000;
+  position: relative;
+}
+.referTable li span {
+  display: inline-block;
+  padding: 21px 0;
+  font-size: 16px;
+  font-family: 'S-CoreDream-3Light';
+  box-sizing: border-box;
+}
+.referTable li span.alpha {
+  position: absolute; left: 0; top: 0;
+}
+.referTable li span.attr {
+  padding-left: 10%;
+  width: 35%;
+}
+.referTable li span.desc {
+  width: 64.5%;
+}

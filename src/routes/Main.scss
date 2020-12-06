@@ -1,0 +1,27 @@
+#mainCont {
+  height: 100vh; background-color: #000; color: #fff;
+}
+
+.mainTxet {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -45%);
+  width: 80%;
+  
+  div {
+    font-size: 11vw;
+    line-height: 8vw;
+    font-family: "Saol Display Regular";
+    margin-bottom: 5px;
+    padding: 1.5vw 0 0 0;
+    color: #fff;
+    display: inline-block;
+  }
+
+  > div.white {
+    color: #000;
+    background: #fff;
+  }
+}
+

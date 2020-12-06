@@ -1,0 +1,125 @@
+#header {
+  position: static;
+  left: 0;
+  top: 0;
+  z-index: 2000;
+  width: 100%;
+  color: #fff;
+  height: 82px;
+  border-bottom: 1px solid rgba(218, 216, 209, 0.2);
+  overflow: hidden;
+  background: #000;
+}
+#header.filter {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: saturate(68%) blur(5px);
+  -webkit-backdrop-filter: saturate(68%) blur(5px);
+  -moz-backdrop-filter: saturate(68%) blur(5px);
+  -o-backdrop-filter: saturate(68%) blur(5px);
+}
+
+#header .port {
+  position: absolute;
+  left: 0;
+  top: 0;
+  border-right: 1px solid rgba(218, 216, 209, 0.2);
+  height: 82px;
+  padding: 24px 70px;
+}
+
+#header .port a {
+  position: relative;
+  display: block;
+  padding: 5px;
+  text-transform: capitalize;
+  font-weight: 400;
+  font-size: 16px;
+  padding-left: 40px;
+  font-family: 'Rajdhani', sans-serif;
+}
+
+#header .port a::before {
+  content: '';
+  position: absolute;
+  left: 5px;
+  top: 11px;
+  width: 28px;
+  height: 1px;
+  background: #fff;
+}
+
+#header .port a::after {
+  content: '';
+  position: absolute;
+  left: 5px;
+  top: 18px;
+  width: 28px;
+  height: 1px;
+  background: #fff;
+}
+
+#header .logo {
+  width: 100%;
+  text-align: center;
+  margin-top: 14px;
+
+  a {
+    font-size: 28px;
+    display: inline-block;
+    padding: 5px 15px;
+    font-family: "Playfair Display", sans-serif;
+    font-weight: 400;
+  }
+
+}
+
+$fontSBasic : 16px;
+$fontWBasic : 400;
+
+#header .nav {
+  position: absolute;
+  right: 20px;
+  top: 15px;
+
+  ul {
+    text-align: right;
+  }
+
+  li {
+    display: inline-block;
+    padding-left: 5px;
+
+    a {
+      display: block;
+      font-weight: $fontWBasic;
+      font-size: $fontSBasic;
+      padding: 2px;
+      font-family: 'Rajdhani', 'Chosunilbo_myungjo', sans-serif;
+    }
+  }
+}
+
+#header.gray {
+  background: #F0EEEB;
+  border-bottom: 1px solid rgba(218, 216, 209, 0.4);
+  .port {
+    border-right: 1px solid rgba(218, 216, 209, 0.4);
+  }
+  .logo a {
+    color: #030406;
+  }
+  .nav li a {
+    color: #030406;
+  }
+  .port a {
+    color: #030406;
+  }
+  .port a::before {
+    background: #030406;
+  }
+  .port a::after {
+    background: #030406;
+  }
+}
+
+

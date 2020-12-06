@@ -1,0 +1,27 @@
+.portCont {
+  color: #fff;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.portCont a {
+  width: 32%;
+  margin-bottom: 2%;
+}
+.portCont .port .portImg img {
+  width: 100%;
+}
+.portCont .port .portText {
+  padding: 35px;
+  background: #151517;
+}
+.portCont .port .portText h2 {
+  font-family: "Saol Display Regular";
+  font-size: 50px;
+  line-height: 47px;
+}
+.portCont .port .portText p {
+  font-size: 12px;
+  color: #B0AEAD;
+}
